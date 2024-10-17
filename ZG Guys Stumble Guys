@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZG Guys - Tudo sobre Stumble Guys</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ZG Guys</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre o Jogo</a></li>
+                <li><a href="#dicas">Dicas e Estratégias</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Bem-vindo ao ZG Guys!</h2>
+        <p>Aqui você encontra tudo sobre o jogo Stumble Guys, suas estratégias e personagens favoritos.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre o Stumble Guys</h2>
+        <p>Stumble Guys é um jogo de batalha multijogador inspirado em corridas de eliminação em massa. Com até 32 jogadores online, o objetivo é passar pelos obstáculos e chegar à linha de chegada, evitando ser eliminado!</p>
+        <img src="stumble-guys.jpg" alt="Imagem do jogo Stumble Guys">
+    </section>
+
+    <section id="dicas">
+        <h2>Dicas e Estratégias</h2>
+        <ul>
+            <li>Utilize a função de pular e mergulhar para evitar obstáculos rapidamente.</li>
+            <li>Observe os padrões dos obstáculos para se preparar antes de avançar.</li>
+            <li>Jogue em equipe quando possível, ajudando seus amigos a alcançar a vitória.</li>
+        </ul>
+    </section>
+
+    <section id="personagens">
+        <h2>Personagens e Skins</h2>
+        <p>Stumble Guys oferece uma variedade de personagens e skins para personalizar seu avatar. Alguns são desbloqueados através de desafios e conquistas.</p>
+        <div class="personagens-galeria">
+            <img src="skin1.jpg" alt="Skin 1">
+            <img src="skin2.jpg" alt="Skin 2">
+            <img src="skin3.jpg" alt="Skin 3">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Siga no Instagram: <a href="https://instagram.com/lczgyt" target="_blank">@lczgyt</a></p>
+        <p>Assista no YouTube: <a href="https://youtube.com/c/LUCASZGAMER" target="_blank">LUCASZGAMER</a></p>
+        <p>Nick no jogo: LCZG YT Guys</p>
+    </section>
+
+    <footer>
+        <p>© 2024 ZG Guys - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#intro {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+#sobre, #dicas, #personagens {
+    background-color: white;
+}
+
+#sobre img, .personagens-galeria img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}// Você pode adicionar algumas interações simples no futuro, como animações ao rolar a página.
+window.addEventListener('scroll', function() {
+    // Código de animação aqui
+});
